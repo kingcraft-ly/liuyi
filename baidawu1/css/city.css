@@ -1,0 +1,311 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html,
+body,
+.box {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    background: #f5f6f5;
+}
+
+.head {
+    width: 100%;
+    height: 150px;
+    background: url(img/main-ad.jpg) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.head h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    position: absolute;
+    left: 10px;
+    bottom: 9px;
+}
+
+.list {
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #DBDAE2;
+}
+
+.list li {
+    height: 60px;
+    border-bottom: 1px solid #DBDAE2;
+    line-height: 60px;
+    margin-left: 15px;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: horizontal;
+}
+
+.list li:last-child {
+    border: none;
+}
+
+.list li span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(img/icon-yuan.png)no-repeat;
+    background-size: 100% 100%;
+}
+
+.list li h1 {
+    padding-left: 10px;
+    font-size: 1.5rem;
+    color: #999;
+}
+
+.list li h2 {
+    -webkit-box-flex: 1;
+    font-size: 1.7rem;
+    padding-left: 25px;
+    color: #333;
+}
+
+.list li h2 input {
+    border: none;
+    width: 100px;
+    height: 60px;
+    font-size: 1.4rem;
+}
+
+.list li h2 small {
+    display: inline-block;
+    height: 60px;
+    width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.list li h2 a {
+    width: 20px;
+    height: 20px;
+    background: url(img/right_arrow.png)no-repeat;
+    background-size: 100% 100%;
+    float: right;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.list li:first-child h2 {
+    color: #24aef2;
+}
+
+.list li p {
+    display: inline-block;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-left: 1px solid #DBDAE2;
+    font-size: 1.4rem;
+    color: #24aef2;
+    background: url(img/icon_address2.png)no-repeat top center;
+    padding-top: 20px;
+}
+
+.search {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 55px;
+    background: #24aef2;
+    margin-top: 20px;
+    font-size: 1.7rem;
+    color: #fff;
+    line-height: 55px;
+}
+
+.search b {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    background: url(img/icon-search.png)no-repeat;
+    background-size: 100% 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    background: #fff;
+}
+
+.hed {
+    width: 100%;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    position: relative;
+    border-bottom: 1px solid #dbdde3;
+}
+
+.hed h1 {
+    color: #000;
+    font-size: 2rem;
+}
+
+.hed a {
+    width: 30px;
+    height: 30px;
+    background: url(img/btn_top_nav_back.png)no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 15px;
+    top: 7px;
+}
+
+#main {
+    -webkit-box-flex: 1;
+}
+
+.man p {
+    width: 100%;
+    height: 24px;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    background: #ebebeb;
+    color: #8a9399;
+    padding-left: 20px;
+    line-height: 24px;
+}
+
+.myul li {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #DDDCE2;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #333;
+    margin-left: 15px;
+    line-height: 40px;
+}
+
+.myul li:last-child {
+    color: #24aef2;
+    position: relative;
+}
+
+.checked {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    background: url(../img/icon-active.png);
+    background-size: cover;
+}
+
+.checked label {
+    width: 20px;
+    height: 20px;
+    background: url(img/icon-active-no.png)no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.checked input {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    opacity: 0;
+}
+
+.checked input:checked+label {
+    width: 20px;
+    height: 20px;
+    background: url(img/icon-active.png)no-repeat;
+    background-size: 100% 100%;
+}
+
+.hot a {
+    display: inline-block;
+    width: 33.3%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #333;
+    font-size: 1.4rem;
+}
+
+.more a {
+    display: inline-block;
+    width: 11.1%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #333;
+    font-size: 1.4rem;
+}
+
+.listcity {
+    width: 100%;
+}
+
+.listpage a {
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    color: #333;
+    font-size: 1.4rem;
+    padding-left: 1rem;
+}
+
+.bigbox {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    background: #fff;
+}
+
+.content h3 {}
+
+.foot {
+    width: 100%;
+    height: 38px;
+    border-top: 2px solid #24aef2;
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    display: none;
+}
+
+.foot a {
+    display: block;
+    -webkit-box-flex: 1;
+    text-align: center;
+    line-height: 38px;
+    font-size: 1.4rem;
+    color: #666;
+    border-right: 1px solid #dbdbdb;
+}

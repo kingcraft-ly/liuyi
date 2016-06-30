@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: '微软雅黑';
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    background: #f6f6f6;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 25%;
+}
+
+.swiper-container img {
+    width: 100%;
+}
+
+.incity,
+.inday,
+.zday,
+.hoteln {
+    width: 100%;
+    height: 12%;
+    background: #fff url(../img/icon-yuan.png) no-repeat 5% center;
+    border-bottom: 1px solid #dddce1;
+}
+
+.incity span,
+.inday span,
+.zday span,
+.hoteln span {
+    font-size: 13px;
+    color: #999999;
+    display: inline-block;
+    margin-left: 13%;
+    margin-top: 8%;
+}
+
+.in_city {
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 10%;
+    color: #24aeef;
+}
+
+.city_l {
+    display: inline-block;
+    background: url(../img/right_arrow.png) no-repeat center;
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    margin-left: 13.5%;
+}
+
+.my_w {
+    width: 23%;
+    height: 100%;
+    float: right;
+    border-left: 1px solid #dddce1;
+    text-align: center;
+}
+
+.my_w img {
+    width: 35%;
+    display: inline-block;
+    margin-top: 10%;
+}
+
+.my_w p {
+    width: 100%;
+    text-align: center;
+    color: #24aeef;
+    font-size: 12px;
+}
+
+.inday p,
+.zday p {
+    display: inline-block;
+    margin-left: 10%;
+    font-size: 14px;
+}
+
+.inday a,
+.zday a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-top: 7%;
+    background: url(../img/right_arrow.png) no-repeat;
+    background-size: 70%;
+    margin-right: 5%;
+}
+
+.hoteln input {
+    color: #cecece;
+    display: inline-block;
+    margin-left: 10%;
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+
+button {
+    margin-top: 10%;
+    border: 0;
+    width: 100%;
+    height: 10%;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    background: #23aef1 url(../img/icon-search.png) no-repeat 32% 50%;
+    background-size: 8%;
+}
+
+.inday input,
+.zday input {
+    border: none;
+    outline: none;
+    margin-left: 10%;
+}

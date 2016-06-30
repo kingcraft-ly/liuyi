@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>百搭屋</title>
+    <link rel="stylesheet" href="./js/gmu/css/calendars.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./img/main-ad.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/2.jpg" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="incity">
+            <span>入住地</span>
+            <div class="in_city">
+                北京
+            </div>
+            <input type="hidden" id='city_id'>
+            <a href="./city.html" class='city_l'></a>
+            <div class="my_w">
+                <img src="./img/icon_address2.png" alt="">
+                <p>我的位置</p>
+            </div>
+        </div>
+        <div class="inday">
+            <span>入住日</span>
+            <input type="text" id='date_in' readonly>
+            <a href="#"></a>
+        </div>
+        <div class="zday">
+            <span>住几晚</span>
+            <input type="text" id='date_out' readonly>
+            <a href="#"></a>
+        </div>
+        <div class="hoteln">
+            <span>酒店名</span>
+            <input type="text" placeholder="酒店名称(选填)" id='name'>
+        </div>
+        <button id='search'>
+            搜索酒店
+        </button>
+    </div>
+    <script src='./js/zepto.min.js'></script>
+    <script src='./js/swiper.min.js'></script>
+    <script src="./js/comm.js"></script>
+    <script src='./js/index.js'></script>
+    <script src="./js/gmu/js/gmu.js"></script>
+    <script src="./js/gmu/js/event.js"></script>
+    <script src="./js/gmu/js/parseTpl.js"></script>
+    <script src="./js/gmu/js/touch.js"></script>
+    <script src="./js/gmu/js/widget.js"></script>
+    <script src="./js/gmu/js/highlight.js"></script>
+    <script src="./js/gmu/js/calendar.js"></script>
+    <script src="./js/gmu/js/$picker.js"></script>
+    <script src="./js/gmu/js/matchMedia.js"></script>
+</body>
+
+</html>
